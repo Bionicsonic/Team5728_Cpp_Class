@@ -1,6 +1,7 @@
 # Intro to C++
 _Taught by Cole Hudson_
 
+C++ Class for the 2015 - 2016 FRC Season, made by Cole Hudson, to whom all questions can be addressed. Meetings for this class will take place every Monday (2:20-4:00) and Wednesday (3:30 - 5:00).
 
 ## Contact Information
 
@@ -22,7 +23,7 @@ Santa Rosa, CA, 95409
 #### Cole Hudson
 Hi my name is Cole and I'm self-taught in hacking, C++, javascript, C, C, python, ruby, and java too. With these under my belt I felt it was only logical I pass on my knowledge to further the team I helped built. If anyone needs any help with any of the material found here feel free to contact me at the following accounts. 
 ##### Email
-```colehudson1997@gmail.com ````
+```colehudson1997@gmail.com ```
 ##### Twitter
 ```@_nullhat ```
 
