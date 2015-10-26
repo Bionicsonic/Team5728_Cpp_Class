@@ -34,7 +34,7 @@ int main(){
 int main{
 	std::cout << "Enter Two Numbers:" << std::endl;
 	int variable = 0, variable1 = 0;
-	std::cin >> variable << variable1;
+	std::cin >> variable >> variable1;
 	std::cout << "The values of" << variable << " and " << variable1 << " when multiplied is " << variable * variable1 << std::endl; 
 	return 0;
 }
