@@ -1,6 +1,7 @@
 //2.1
 
 /*
+Just like we talked about namespaces and how they hold predefined things,
 C++ has a set of predefined types for aritmetic and a special type
 named 'void'. The arithmetic types represent characters, integers, boolean
 values, and floating-point numbers. The 'void' type has no associated value
