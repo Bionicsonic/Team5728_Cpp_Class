@@ -1,9 +1,11 @@
 //1.4.1
 
 /*
+Control Flow
+
 Normally code will execute line by line, but you can alter the flow of 
-programs so that loops, or conditionals occur, or even calls to other 
-functions so you can delegate actions.
+programs so that loops, or conditionals statements occur, or even make calls
+to other functions to delegate actions as needed.
 
 While statement will repeat a section of the code while a given condition
 is true
