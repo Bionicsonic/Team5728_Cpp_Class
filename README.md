@@ -21,7 +21,7 @@ Santa Rosa, CA, 95409
 ```
 ### Instructor
 #### Cole Hudson
-Hi my name is Cole and I'm self-taught in hacking, C++, javascript, C, C, python, ruby, and java too. With these under my belt I felt it was only logical I pass on my knowledge to further the team I helped built. If anyone needs any help with any of the material found here feel free to contact me at the following accounts. 
+Hi my name is Cole and I'm self-taught in C++, javascript, C, python, ruby, and java too. With these under my belt I felt it was only logical I pass on my knowledge to further the team I helped built. If anyone needs any help with any of the material found here feel free to contact me at the following accounts. 
 ##### Email
 ```colehudson1997@gmail.com ```
 ##### Twitter
