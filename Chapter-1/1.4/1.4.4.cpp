@@ -52,7 +52,7 @@ string with the 'occurence rate' at 1 for each value
 //1.18
 
 /*
-Do this on your own you should get what I depicted in problem 1.17, above
+I'm a lazy bastard I'll do this in a wee bit laddies
 */
 
 //1.19
