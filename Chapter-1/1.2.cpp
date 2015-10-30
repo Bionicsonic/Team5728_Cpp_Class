@@ -1,24 +1,41 @@
 #include <iostream>
 
 int main(){
-	std::cout << "Enter two numbers:" << std::endl; /* String Literal */
-	int v1 = 0, v2 = 0;
-	std::cin >> v1 >> v2; /* Takes the two variables in*/
-	std::cout << "The sum of" << v1 << " and " << v2 << " is " << v1 + v2 << std::endl;
+	std::cout << "Enter two numbers:" << std::endl; /* Telling the comiler to output the string in quotes */
+	int v1 = 0, v2 = 0; /*Our two variables each with starting value 0*/
+	std::cin >> v1 >> v2; /* Takes whatever input given and store it in v1 and then whatevers left in v2*/
+	std::cout << "The sum of" << v1 << " and " << v2 << " is " << v1 + v2 << std::endl; //output each stored value and their sum
 	return 0; /*Tells computer that all is well */
 }
 
 /* 
 'std::' prefix tells that compiler that 'endl', 'cout', and 'cin', are 
 all located in the namespace 'std'. Namespaces allow us to avoid collisions
-between those we make ourselves and those that are premade
+between those things we make ourselves and those that are premade
 
 'int v1=0, v2=0'
-defines two integer variables meaning they will only be able to have
+defines two integer(int) variables meaning they will only be able to have
 integer related operations performed on them as well as be recieved by 
 the comiler as integers. They are initilized at 0. 
 
-'std::cin' reads the input and uses the input operator '>>' to do so. 
+'std::cin' reads the input given and uses the input operator '>>' to 
+apply each input into the variable given. You can think of this as each
+input being put in a list and as we specify variables to store that data
+each value on the list will be plucked from in it in the same order we put
+it into the list. So, for a list of input:
+
+1,2,3,4
+
+If we use the line of code:
+
+std::cin >> var1 >> var2 >> var3 >> var4;
+
+Then each variable will have the following values:
+
+var1 = 1;
+var2 = 2;
+var3 = 3;
+var4 = 4;
 */
 
 
