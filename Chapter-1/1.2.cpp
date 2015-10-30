@@ -9,9 +9,14 @@ int main(){
 }
 
 /* 
+'#include <iostream>' specifies a library to draw from which contains a
+whole bunch of prebuilt functions and premade variables that we can use
+as needed.
+
 'std::' prefix tells that compiler that 'endl', 'cout', and 'cin', are 
 all located in the namespace 'std'. Namespaces allow us to avoid collisions
-between those things we make ourselves and those that are premade
+between those things we make ourselves and those that are premade. In this
+case 'std::' is referring to things in the 'iostream' library.
 
 'int v1=0, v2=0'
 defines two integer(int) variables meaning they will only be able to have
@@ -42,12 +47,16 @@ var4 = 4;
 //Exercises for 1.2
 
 //1.3
+#include <iostream>
+
 int main(){
 	std::cout << "Hello World" << std::endl;
 	return 0;
 }
 
 //1.4
+#include <iostream>
+
 int main{
 	std::cout << "Enter Two Numbers:" << std::endl;
 	int variable = 0, variable1 = 0;
@@ -57,6 +66,8 @@ int main{
 }
 
 //1.5
+#include <iostream>
+
 int main(){
 	std::cout << "Enter two numbers:" << std::endl; 
 	int v1 = 0, v2 = 0;
