@@ -2,25 +2,36 @@
 
 /*
 Because incremnting through values occurs so much in code their is a specific
-statement defined just for this. The for loop, which takes a base value, and
-increments that value from its original to some other value, executing some
-code each time it loops.
+statement defined just for this. The 'For' loop is such a thing, which takes
+a base value, and increments that value from its original to some other value, 
+executing some code each time it loops and sees the conditional still evaluates
+to true.
 */
 
 #include <iostream>
 
 int main(){
-	int sum = 0;
+	int sum = 0; //variable 
 	for(int val = 1; val <= 10; ++val) //will increment val until its equal to 10
 		sum += val; //adds sum to val
-	std::cout << "Sum of 1 to 10 inclusive is " << sum << std::endl;
+	std::cout << "Sum of 1 to 10 inclusive is " << sum << std::endl; 
 	return 0;
 }
 
 /*
-For statement has 3 parts. An init statement, a coditional, and an
-expression, which does not necessairily have to increment the init.
+For statement has 3 parts. An decalred variable, a conditional, and an
+expression, which does not necessairily have to increment the variable.
+Additionally while you can create a variable inside a for loop you can also
+draw from an existing one like so: 
 */
+
+int main(){
+	int var = 0;
+	for(var;var <= 10;++var){
+		//your code here
+	}
+	return 0;
+}
 
 //Exercises
 
