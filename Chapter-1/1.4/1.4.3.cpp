@@ -3,9 +3,10 @@
 #include <iostream>
 
 int main(){
-	int sum = 0, value = 0; //init variables to hold values
-	while (std::cin >> value) //reads the number of inputs and stores them in value temporairily
+	int sum = 0, value = 0; //initialize variables to hold values
+	while (std::cin >> value){ //reads the number of inputs and stores them in variable 'value' 
 		sum += value; //adds value to the evolving total of sum
+	}
 	std::cout << "Sum is: " << sum << std::endl; //Tells us the final value of sum
 	return 0; //All is well carry on
 }
