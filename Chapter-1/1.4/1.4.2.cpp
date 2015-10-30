@@ -1,7 +1,7 @@
 //1.4.2
 
 /*
-Because incremnting through values occurs so much in code their is a specific
+Because incrementing through values occurs so much in code their is a specific
 statement defined just for this. The 'For' loop is such a thing, which takes
 a base value, and increments that value from its original to some other value, 
 executing some code each time it loops and sees the conditional still evaluates
