@@ -7,8 +7,7 @@ int main(){
 	if(std::cin >> currVal) { //stores current value being counted
 		int cnt = 1; //init 'cnt' variable
 		while (std::cin >> val){ // holds each input as its read in 'val'
-			if(val == currVal) //continues if the values are the same
-				++cnt
+			if(val == currVal) ++cnt; //continues if the values are the same
 			else {
 				std::cout << currVal << " occurs " << cnt << " times " << std::endl;
 				currVal = val; //remember the new value
